@@ -1,0 +1,119 @@
+{
+  "screen": [
+    {
+      "questions": [
+        {
+          "number": "0",
+          "type": "4",
+          "question": "What do you worry about the most?",
+          "choices" : [
+            "Saving for Retirement",
+            "Paying Off Debt",
+            "Buying a Home",
+            "Getting Married",
+            "Budgeting Better",
+            "Investing",
+            "Earning More"
+          ]
+        },
+        {
+          "number": "1",
+          "type": "1",
+          "question": "What is your current job?"
+        },
+        {
+          "number": "2",
+          "type": "1",
+          "question": "Where do you currently live?"
+        },
+        {
+          "number": "3",
+          "type": "2",
+          "question": "How old are you?"
+        },
+        {
+          "number": "4",
+          "type": "2",
+          "question": "How much do you have saved (Ex - $1,000 or $10,000) ?"
+        },
+        {
+          "number": "5",
+          "type": "2",
+          "question": "What is your monthly salary?"
+        },
+        {
+          "number": "6",
+          "type": "3",
+          "question": "Are you married?",
+          "choices" : [
+              "Yes",
+              "No"
+          ]
+        }
+      ],
+      "takeAways" : [
+        {
+          "takeAway" : "Great job! Did you know most people in their 20's only on average have $1k in their bank account",
+          "responses" : [
+            {
+              "questionNumber" : "3",
+              "answer" : "25"
+            },
+            {
+              "questionNumber" : "4",
+              "answer" : "100000"
+            }
+          ]
+        },
+        {
+          "takeAway" : "It’s ok! A lot of people in their 20’s are exactly where you are. This is why we’re here, let’s work on saving together",
+          "responses" : [
+            {
+              "questionNumber" : "3",
+              "answer" : "25"
+            },
+            {
+              "questionNumber" : "4",
+              "answer" : "750"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questions" : [
+        {
+          "number": "7",
+          "type": "4",
+          "question": "What do you worry about the most?",
+          "choices" : [
+            "Saving for Retirement",
+            "Paying Off Debt",
+            "Buying a Home",
+            "Getting Married",
+            "Budgeting Better",
+            "Investing",
+            "Earning More"
+          ]
+        }
+      ],
+      "skips" : [
+        {
+          "questionNumber" : "7",
+          "answerNumber"   : "1"
+        }
+
+      ]
+    },
+    {
+      "questions" : [
+        {
+          "number": "8",
+          "type": "2",
+          "question": "What are your monthly fixed costs?"
+        }
+      ]
+    }
+  ]
+}
+

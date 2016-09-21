@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Finance</string>
+    <string name="next">Next</string>
+    <string name="error_msg">Unable to load data from internet. We\'ll try again for you &#8230;</string>
+    <string name="welcome_text">Hi %1$s let\'s talk about &#8230;</string>
+    <string name="final_message">Thank you!</string>
+
+</resources>
